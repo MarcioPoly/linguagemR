@@ -93,8 +93,8 @@ grepl(pattern = padrao, x = string1)
 
 # importando arquivo txt
 # http://www.gutenberg.org/cache/epub/100/pg100.txt
-arquivo <- read.csv("http://www.gutenberg.org/cache/epub/100/pg100.txt")
-arquivo1 <- read.csv2("http://www.gutenberg.org/cache/epub/100/pg100.txt")
+arquivo <- read.table("http://www.gutenberg.org/cache/epub/100/pg100.txt")
+
 head(arquivo1)
 tail(arquivo1)
 
